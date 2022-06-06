@@ -43,7 +43,7 @@ The present work consists the official submission of the TsoumTeam to the **JPX 
 
 More information available at: https://www.kaggle.com/competitions/jpx-tokyo-stock-exchange-prediction/data
 
-- **Current submition ranking:**
+- **Current submition ranking:** 303 (06/06/2022) 
 - **Current #teams:** 1466 (06/06/2022) 
 
 
