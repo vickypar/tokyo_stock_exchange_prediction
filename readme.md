@@ -2,37 +2,34 @@
 
 ## Authors
 
----
-
 - Vasiliki Chrysovalanto Parousidou
 - Zoi Chatzichristodoulou (@zoichatzi)
 - Charilaos Kaliakatsos
 
 ## Table of Contents
 
----
+[0. Installation](https://github.com/vickypar/tokyo_stock_exchange_prediction#0-installation)
 
-[0. Installation](link)
+[1. Semantics](https://github.com/vickypar/tokyo_stock_exchange_prediction#1-semantics)
 
-[1. Semantics](link)
+[2. About](https://github.com/vickypar/tokyo_stock_exchange_prediction#2-about)
 
-[2. About](link)
+[3. Competition Overview](https://github.com/vickypar/tokyo_stock_exchange_prediction#3-competition-overview)
 
-[3. Competition Overview](link)
+[4. About Our Approach](https://github.com/vickypar/tokyo_stock_exchange_prediction#4-about-our-approach)
 
-[4. About Our Approach](link)
+[5. Performance of the Models](https://github.com/vickypar/tokyo_stock_exchange_prediction#5-performance-of-the-models)
 
-[5. Performance of the Models](link)
+[6. icensing and Refferences](https://github.com/vickypar/tokyo_stock_exchange_prediction#6-licensing-and-refference)
+
 
 ## 0. Installation 
 
----
 
 The code requires Python versions of 3.* and general libraries available through the Anaconda package.
 
 ## 1. Semantics
 
----
 
 **JPX Tokyo Exchange Prediction** is a project that was created as a semester Project in the context of “Advanced Machine Learning” class.
 MSc Data and Web Science, School of Informatics, Aristotle University of Thessaloniki.
@@ -40,7 +37,6 @@ MSc Data and Web Science, School of Informatics, Aristotle University of Thessal
 
 ## 2. About
 
----
 
 The present work consists the official submission of the TsoumTeam to the **JPX Tokyo Stock Exchange Prediction** Competition o Kaggle.
 
@@ -52,19 +48,16 @@ More information available at: https://www.kaggle.com/competitions/jpx-tokyo-sto
 
 ## 3. Competition Overview
 
----
+Success in any financial market requires one to identify solid investments. When a stock or derivative is undervalued, it makes sense to buy. If it's overvalued, perhaps it's time to sell. While these finance decisions were historically made manually by professionals, technology has ushered in new opportunities for retail investors. Data scientists, specifically, may be interested to explore quantitative trading, where decisions are executed programmatically based on predictions from trained models.
 
-- Success in any financial market requires one to identify solid investments. When a stock or derivative is undervalued, it makes sense to buy. If it's overvalued, perhaps it's time to sell. While these finance decisions were historically made manually by professionals, technology has ushered in new opportunities for retail investors. Data scientists, specifically, may be interested to explore quantitative trading, where decisions are executed programmatically based on predictions from trained models.
+There are plenty of existing quantitative trading efforts used to analyze financial markets and formulate investment strategies. To create and execute such a strategy requires both historical and real-time data, which is difficult to obtain especially for retail investors. This competition will provide financial data for the Japanese market, allowing retail investors to analyze the market to the fullest extent.
 
-- There are plenty of existing quantitative trading efforts used to analyze financial markets and formulate investment strategies. To create and execute such a strategy requires both historical and real-time data, which is difficult to obtain especially for retail investors. This competition will provide financial data for the Japanese market, allowing retail investors to analyze the market to the fullest extent.
+Japan Exchange Group, Inc. (JPX) is a holding company operating one of the largest stock exchanges in the world, Tokyo Stock Exchange (TSE), and derivatives exchanges Osaka Exchange (OSE) and Tokyo Commodity Exchange (TOCOM). JPX is hosting this competition and is supported by AI technology company AlpacaJapan Co.,Ltd.
 
-- Japan Exchange Group, Inc. (JPX) is a holding company operating one of the largest stock exchanges in the world, Tokyo Stock Exchange (TSE), and derivatives exchanges Osaka Exchange (OSE) and Tokyo Commodity Exchange (TOCOM). JPX is hosting this competition and is supported by AI technology company AlpacaJapan Co.,Ltd.
-
-- This competition will compare your models against real future returns after the training phase is complete. The competition will involve building portfolios from the stocks eligible for predictions (around 2,000 stocks). Specifically, each participant ranks the stocks from highest to lowest expected returns and is evaluated on the difference in returns between the top and bottom 200 stocks. You'll have access to financial data from the Japanese market, such as stock information and historical stock prices to train and test your model.
+This competition will compare your models against real future returns after the training phase is complete. The competition will involve building portfolios from the stocks eligible for predictions (around 2,000 stocks). Specifically, each participant ranks the stocks from highest to lowest expected returns and is evaluated on the difference in returns between the top and bottom 200 stocks. You'll have access to financial data from the Japanese market, such as stock information and historical stock prices to train and test your model.
 
 ## 4. About Our Approach
 
----
 
 ### 4.1 Preprocessing of the Data
 
@@ -96,7 +89,6 @@ The Dickey-Fuller test is one of the most popular statistical tests. It can be u
 
 ## 5. Performance of the Models
 
----
 
  ### 5.1 Time Performance
 
@@ -111,7 +103,7 @@ The Dickey-Fuller test is one of the most popular statistical tests. It can be u
 | LSTM                    |               |
 | CNN                     |               |
 
-## Licensing and Refferences
+## 6. icensing and Refferences
 
 
 
