@@ -20,7 +20,7 @@
 
 [5. Performance of the Models](https://github.com/vickypar/tokyo_stock_exchange_prediction#5-performance-of-the-models)
 
-[6. icensing and Refferences](https://github.com/vickypar/tokyo_stock_exchange_prediction#6-licensing-and-refference)
+[6. icensing and Refferences](https://github.com/vickypar/tokyo_stock_exchange_prediction#6-licensing-and-refferences)
 
 
 ## 0. Installation 
