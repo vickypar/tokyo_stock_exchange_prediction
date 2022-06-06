@@ -103,7 +103,7 @@ The Dickey-Fuller test is one of the most popular statistical tests. It can be u
 | LSTM                    |               |
 | CNN                     |               |
 
-## 6. icensing and Refferences
+## 6. Licensing and Refferences
 
 
 
