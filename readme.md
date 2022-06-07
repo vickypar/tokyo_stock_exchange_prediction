@@ -1,5 +1,4 @@
 # JPX Tokyo Exchange Prediction
-![image](https://user-images.githubusercontent.com/95586847/172226164-435897a7-0236-4f58-be8a-dd58b13d1e55.png)
 
 ## Authors
 
@@ -21,7 +20,7 @@
 
 [5. Performance of the Models](https://github.com/vickypar/tokyo_stock_exchange_prediction#5-performance-of-the-models)
 
-[6. icensing and Refferences](https://github.com/vickypar/tokyo_stock_exchange_prediction#6-licensing-and-refferences)
+[6. Licensing and Refferences](https://github.com/vickypar/tokyo_stock_exchange_prediction#6-licensing-and-refferences)
 
 
 ## 0. Installation 
@@ -43,7 +42,7 @@ The present work consists the official submission of the TsoumTeam to the **JPX 
 
 More information available at: https://www.kaggle.com/competitions/jpx-tokyo-stock-exchange-prediction/data
 
-- **Current submition ranking:** 303 (06/06/2022) 
+- **Current submition ranking:**
 - **Current #teams:** 1466 (06/06/2022) 
 
 
@@ -91,7 +90,7 @@ In order to analyse this components we moved forward with multiplicative decompo
 
 **Daily Spread Return**: Overall predicted return at a specific day if the proposed strategy is followed 
 
-$$𝑅_𝑑𝑎𝑦 = 𝑆_𝑡𝑜𝑝 − 𝑆_𝑑𝑜𝑤𝑛$$
+$$𝑅_(𝑑𝑎𝑦)=𝑆_(𝑡𝑜𝑝)−𝑆_(𝑑𝑜𝑤𝑛)$$
 
 
 **Score**:  The ratio between mean and standard deviation of the time series of daily spread return that is calculated every business day during a specific period
@@ -108,13 +107,13 @@ Comparison between all approaches.
 
 | Model	                  | MAE           | RMSE          | MSE           | Duration (sec)|
 | ----------------------- | ------------- |---------------|---------------|-------------- |
-| Linear Regression       | `0.016`       | `0.0260`      | `0.0006`      |`2.922`        |
+| Linear Regression       | `0.016`       | `0.0260`      | `0.0006`      |**`2.922`**    |
 | k - Nearest Neighbor    | `0.020`       | `0.0290`      | `0.0008`      |`1027`         |
 | Support Vector Regressor| `0.016`       | `0.0263`      | `0.0006`      |`1277`         |
 | AdaBoost                | `0.017`       | `0.0273`      | `0.0007`      |`713.9`        |
 | Random Forest           | `0.162`       | `0.2201`      | `0.0484`      |`253.1`        |
 | XGBoost                 | `0.018`       | `0.0277`      | `0.0007`      |`928.5`        |
-| LSTM                    | `**0.013**`   | `**0.0232**`  | `**0.0003**`  |`31.115`       |
+| LSTM                    | **`0.013`**   | **`0.0232`**  | **`0.0003`**  |`31.115`       |
 
 ## 6. Licensing and Refferences
 
