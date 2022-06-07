@@ -1,6 +1,6 @@
 # JPX Tokyo Exchange Prediction
 
-![image](https://user-images.githubusercontent.com/94535853/172357554-58793b10-a8c0-4958-b84a-e123b8188cd5.png)
+![image](https://user-images.githubusercontent.com/95586847/172226164-435897a7-0236-4f58-be8a-dd58b13d1e55.png)
 
 ## Authors
 
