@@ -76,32 +76,44 @@ These components are defined as follows:
 
 In order to analyse this components we moved forward with multiplicative decomposition of the stocks.
 
-Further more we checked if a series is stationary via the ADF (Augmented Dickey-Fuller) Test.
-
-The Dickey-Fuller test is one of the most popular statistical tests. It can be used to determine the presence of unit root in the series, and hence help us understand if the series is stationary or not. The null and alternate hypothesis of this test is:
-
-**Null Hypothesis:** The series has a unit root (value of a =1)
-
-**Alternate Hypothesis:** The series has no unit root.
 
 ### 4.3 Models
+- Linear Regression
+- k-Nearest Neighbors
+- Support Vector Regressor
+- Random Forest
+- AdaBoost
+- XGBoost
+- LSTM
 
+### 4.4 Evaluation
+
+**Daily Spread Return**: Overall predicted return at a specific day if the proposed strategy is followed 
+
+$$𝑅_𝑑𝑎𝑦 = 𝑆_𝑡𝑜𝑝 − 𝑆_𝑑𝑜𝑤𝑛$$
+
+
+**Score**:  The ratio between mean and standard deviation of the time series of daily spread return that is calculated every business day during a specific period
+
+$$𝑆𝑐𝑜𝑟𝑒=  (𝐴𝑣𝑒𝑟𝑎𝑔𝑒(𝑅_(𝑑𝑎𝑦_1−𝑑𝑎𝑦_𝑥 )))/(𝑆𝑇𝐷(𝑅_(𝑑𝑎𝑦_1−𝑑𝑎𝑦_𝑥 )))$$
+
+**Goal**: Find the largest score
+
+ 
 
 ## 5. Performance of the Models
 
+Comparison between all approaches.
 
- ### 5.1 Time Performance
-
-| Model	                  | Run time      |
-| ----------------------- | ------------- |
-| Linear Regression       | `1.1` sec     |
-| k - Nearest Neighbor    | `2.0` sec     |
-| Support Vector Regressor| `2.0` sec     |
-| AdaBoost                | `2.0` sec     |
-| Random Forest           | `2.0` sec     |
-| XGBoost                 |               |
-| LSTM                    |               |
-| CNN                     |               |
+| Model	                  | MAE           | RMSE          | MSE           | Duration (sec)|
+| ----------------------- | ------------- |---------------|---------------|-------------- |
+| Linear Regression       | `0.016`       | `0.0260`      | `0.0006`      |`2.922`        |
+| k - Nearest Neighbor    | `0.020`       | `0.0290`      | `0.0008`      |`1027`         |
+| Support Vector Regressor| `0.016`       | `0.0263`      | `0.0006`      |`1277`         |
+| AdaBoost                | `0.017`       | `0.0273`      | `0.0007`      |`713.9`        |
+| Random Forest           | `0.162`       | `0.2201`      | `0.0484`      |`253.1`        |
+| XGBoost                 | `0.018`       | `0.0277`      | `0.0007`      |`928.5`        |
+| LSTM                    | `**0.013**`   | `**0.0232**`  | `**0.0003**`  |`31.115`       |
 
 ## 6. Licensing and Refferences
 
