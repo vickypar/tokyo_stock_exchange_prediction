@@ -90,12 +90,14 @@ In order to analyse this components we moved forward with multiplicative decompo
 
 **Daily Spread Return**: Overall predicted return at a specific day if the proposed strategy is followed 
 
-$$𝑅_𝑑_𝑎_𝑦=𝑆_𝑡_𝑜_𝑝−𝑆_𝑑_𝑜_𝑤_𝑛$$
+$ 𝑅_𝑑_𝑎_𝑦=𝑆_𝑡_𝑜_𝑝−𝑆_𝑑_𝑜_𝑤_𝑛 $
 
 
 **Score**:  The ratio between mean and standard deviation of the time series of daily spread return that is calculated every business day during a specific period
 
-$$𝑆𝑐𝑜𝑟𝑒=  𝐴𝑣𝑒𝑟𝑎𝑔𝑒(𝑅_𝑑_𝑎_𝑦_1−_𝑑_𝑎_𝑦_𝑥 )\over (𝑆𝑇𝐷(𝑅_𝑑_𝑎_𝑦_1−_𝑑_𝑎_𝑦_𝑥 )$$
+$$
+𝑆𝑐𝑜𝑟𝑒= \frac {𝐴𝑣𝑒𝑟𝑎𝑔𝑒(𝑅_𝑑_𝑎_𝑦_1−_𝑑_𝑎_𝑦_𝑥 )}{(𝑆𝑇𝐷(𝑅_𝑑_𝑎_𝑦_1−_𝑑_𝑎_𝑦_𝑥)}
+$$
 
 **Goal**: Find the largest score
 
