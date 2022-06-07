@@ -1,8 +1,10 @@
 # JPX Tokyo Exchange Prediction
 
+![image](https://user-images.githubusercontent.com/94535853/172357554-58793b10-a8c0-4958-b84a-e123b8188cd5.png)
+
 ## Authors
 
-- Vasiliki Chrysovalanto Parousidou
+- Vasiliki Chrysovalanto Parousidou (@vickypar)
 - Zoi Chatzichristodoulou (@zoichatzi)
 - Charilaos Kaliakatsos
 
@@ -25,18 +27,15 @@
 
 ## 0. Installation 
 
-
 The code requires Python versions of 3.* and general libraries available through the Anaconda package.
 
 ## 1. Semantics
-
 
 **JPX Tokyo Exchange Prediction** is a project that was created as a semester Project in the context of “Advanced Machine Learning” class.
 MSc Data and Web Science, School of Informatics, Aristotle University of Thessaloniki.
 
 
 ## 2. About
-
 
 The present work consists the official submission of the TsoumTeam to the **JPX Tokyo Stock Exchange Prediction** Competition o Kaggle.
 
@@ -57,7 +56,6 @@ Japan Exchange Group, Inc. (JPX) is a holding company operating one of the large
 This competition will compare your models against real future returns after the training phase is complete. The competition will involve building portfolios from the stocks eligible for predictions (around 2,000 stocks). Specifically, each participant ranks the stocks from highest to lowest expected returns and is evaluated on the difference in returns between the top and bottom 200 stocks. You'll have access to financial data from the Japanese market, such as stock information and historical stock prices to train and test your model.
 
 ## 4. About Our Approach
-
 
 ### 4.1 Preprocessing of the Data
 
@@ -90,14 +88,13 @@ In order to analyse this components we moved forward with multiplicative decompo
 
 **Daily Spread Return**: Overall predicted return at a specific day if the proposed strategy is followed 
 
-$ 𝑅_𝑑_𝑎_𝑦 = 𝑆_𝑡_𝑜_𝑝−𝑆_𝑑_𝑜_𝑤_𝑛 $
+![image](https://user-images.githubusercontent.com/94535853/172357314-975ddb45-2f49-4952-986f-b277b485678f.png)
 
 
 **Score**:  The ratio between mean and standard deviation of the time series of daily spread return that is calculated every business day during a specific period
 
-$$
-Score = \frac{Average(R_d_a_y_1−_d_a_y_x )}{(STD(R_d_a_y_1−_d_a_y_x)}
-$$
+![image](https://user-images.githubusercontent.com/94535853/172357397-19d29858-058b-4f80-a0f3-3262e073f3a6.png)
+
 
 **Goal**: Find the largest score
 
