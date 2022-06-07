@@ -1,4 +1,5 @@
 # JPX Tokyo Exchange Prediction
+![image](https://user-images.githubusercontent.com/95586847/172226164-435897a7-0236-4f58-be8a-dd58b13d1e55.png)
 
 ## Authors
 
@@ -42,7 +43,7 @@ The present work consists the official submission of the TsoumTeam to the **JPX 
 
 More information available at: https://www.kaggle.com/competitions/jpx-tokyo-stock-exchange-prediction/data
 
-- **Current submition ranking:**
+- **Current submition ranking:** 303 (06/06/2022) 
 - **Current #teams:** 1466 (06/06/2022) 
 
 
